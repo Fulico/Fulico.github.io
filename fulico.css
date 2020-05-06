@@ -1,0 +1,198 @@
+html, body{
+    margin: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding: 0;
+    
+}
+
+/*header{
+    width: 100%;
+    position: fixed;
+    background-color: rgba(18, 18, 22, 0.6);
+    
+}
+
+.header-logo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: normal;
+    padding: 10px 20px;
+    margin: 0;
+    color: whitesmoke;
+    letter-spacing: 0px;
+    font-stretch: condensed;
+
+} */
+
+
+.copy{
+    height: 900px;
+    width: 100%;
+    background-image: url(sky.JPG); /*http://fulico.github.io/pics/.sky.jpg に書き直す？*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-y: top;
+    vertical-align: middle;
+
+}
+
+/*.overlay{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    background-color: rgba(127, 255, 0, 0.7);
+    float: left;
+
+}*/
+
+.copy-container{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 351.5px;
+    padding-bottom: 351.5px;
+    vertical-align: middle;    
+    text-align: center;
+
+}
+
+.copy-container p {
+    font-family: 'Courier New', Courier, monospace;
+    color: whitesmoke;
+    padding-bottom: 7px;
+    display: block;
+    
+}
+
+.copy-title{
+    font-weight: normal;
+    font-family: 'Courier New', Courier, monospace;
+    color: whitesmoke;
+    display: block;
+    font-stretch: extra-condensed;
+}
+
+.copy-text{
+    flex-direction: column;
+}
+
+.about{
+    width: 100%;
+    height: 600px;
+    
+}
+
+.about-logo, .skills-logo{
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 100px;
+}
+
+.info-container{
+    display: inline-block;
+    width: 400px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 40px;
+    margin-left: 180px;
+
+
+}
+
+.info-name, .info-contact{
+    font-weight: normal;
+    font-size: 29px;
+    
+}
+
+.intro-container{
+    width: 50%;
+    float: right;
+    margin-top: 40px;
+    margin-right: 100px;
+    margin-left: 70px;
+    margin-bottom: 150px;
+    
+}
+
+.skills{
+    background-color: whitesmoke;
+    width: 100%;
+
+}
+
+.eng-skills-container{
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.eng-skills-head{
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    width: 70px;
+    padding: 2px 5px;
+    margin: 0 auto;
+    margin-top: 16px;
+    margin-bottom: 0px;
+    text-align: center;
+    background-color: rgb(121, 121, 121);
+    border-radius: 3px;
+    color: white;    
+}
+
+.center-stripe{
+    background-color:rgb(121, 121, 121);
+    width: 2px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.eiken-container{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    bottom: 260px;
+
+}
+
+.eiken-icon{
+    width: 30px;
+    height: 30px;
+    margin: 40px auto;
+    background-color: fuchsia;
+    border-radius: 15px;
+
+}
+
+
+.eiken-miniholder{
+    
+    float:left;
+    margin-left:100px;
+    margin-top: 170px;
+    position: relative;
+    bottom: 260px;
+    text-align: right;
+    font-weight: bold;
+}
+
+.eiken-head{
+    font-family: serif;
+
+
+}
+
+.eiken-text{
+    font-family: serif;
+
+}
+

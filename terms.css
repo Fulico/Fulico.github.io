@@ -1,0 +1,26 @@
+.terms{
+    width: 80%;
+    margin: 0 auto;
+    
+
+}
+
+.terms-logo{
+    margin-top: 70px;
+    border-bottom: gray solid 1px;
+    padding-bottom: 7px;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    color: white;
+    background-color: rgb(47, 99, 177);
+    
+}
+
+.footer-text{
+    height: inherit;
+    inline-size: 100%;
+}

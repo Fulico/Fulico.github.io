@@ -1,9 +1,11 @@
 $(function(){
     $(window).scroll(function(){
         var scrollPosi = $(document).scrollTop();
-        $('#copy').animate({
-			backgroundPositionY: (-scrollPosi / 3 + "px")
-		}, 100);
-    })
+        if (scrollPosi > 0 ){
+            $('header').css('box-shadow','0px 2px 2px')
+        }
+    });
+
+    
 
 });

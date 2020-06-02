@@ -1,12 +1,22 @@
+.header-right{
+    float: right;
+    margin-top: 11.1px;
+    margin-right: 15px;
+    margin-bottom: 11.1px;
+    padding: 0 0;
+}
+
+
 .terms{
     width: 80%;
     margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 
 }
 
 .terms-logo{
-    margin-top: 70px;
+    margin-top: 80px;
     border-bottom: gray solid 1px;
     padding-bottom: 7px;
 }
